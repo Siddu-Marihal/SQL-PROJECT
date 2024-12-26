@@ -12,23 +12,29 @@ This project is focused on analyzing data from a music store to gain insights in
 
 1. Who is the senior most employee based on job title?
 2. Which countries have the most invoices?
-What are the top 3 values of total invoice?
-Which city has the best customers? Write a query that returns the city with the highest sum of invoice totals.
-3. Who is the best customer? Identify the customer who has spent the most money.
+3. What are the top 3 values of total invoice?
+4. Which city has the best customers? Write a query that returns the city with the highest sum of invoice totals.
+5. Who is the best customer? Identify the customer who has spent the most money.
+
 ## Question Set 2 - Moderate
+
 1. Rock Music Listeners: Return the email, first name, last name, and genre of all rock music listeners. List them alphabetically by email.
-Top Rock Artists: Identify the top 10 rock artists who have written the most songs.
-2. Longer-than-Average Songs: Return all track names with a song length longer than the average, ordered by song length (longest first).
+2. Top Rock Artists: Identify the top 10 rock artists who have written the most songs.
+3. Longer-than-Average Songs: Return all track names with a song length longer than the average, ordered by song length (longest first).
+
 ## Question Set 3 - Advanced
+
 1. Amount Spent by Customers on Artists: Return the customer name, artist name, and total amount spent on the artist.
 2. Most Popular Music Genre per Country: Identify the most popular music genre in each country based on purchases.
 3. Top Customer per Country: Return the top customer for each country based on spending.
 
 # Challenges Faced
+
 - Handling Large Datasets: Querying large datasets with multiple joins and groupings required optimization techniques like indexing and careful query design.
 - Complex Joins and Subqueries: Some questions required nested queries and joining multiple tables, which was challenging but provided a deeper understanding of SQL.
 - Data Integrity: Ensuring that the data used for analysis was clean and free of inconsistencies was an essential part of the process.
 - Performance Optimization: Some queries took longer to execute, which led me to focus on optimizing the performance by using appropriate indexes and restructuring queries.
 
 # Conclusions
+
 This project helped me refine my SQL skills, particularly in the areas of data aggregation, complex joins, subqueries, and performance optimization. It also provided valuable insights into the music industry, highlighting trends in customer behavior, music preferences, and the economic impact of certain artists and genres. Through this analysis, I gained a deeper understanding of how to derive actionable insights from relational databases.
